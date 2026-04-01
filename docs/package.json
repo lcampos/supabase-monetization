@@ -8,10 +8,13 @@
     "build": "zudoku build --zuplo"
   },
   "dependencies": {
+    "@mdx-js/react": "3.0.1",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/supabase-js": "^2.101.1",
+    "@zuplo/zudoku-plugin-monetization": "^0.0",
     "react": "^19",
     "react-dom": "^19",
-    "@mdx-js/react": "3.0.1",
-    "@zuplo/zudoku-plugin-monetization": "^0.0",
     "zudoku": "^0.73"
   },
   "devDependencies": {

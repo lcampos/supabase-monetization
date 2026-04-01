@@ -74,16 +74,10 @@ const config: ZudokuConfig = {
     },
   ],
   authentication: {
-    // IMPORTANT: This is a demo Auth0 configuration.
-    // In a real application, you should replace these values with your own
-    // identity provider's configuration.
-    // This configuration WILL NOT WORK with custom domains.
-    // For more information, see:
-    // https://zuplo.com/docs/dev-portal/zudoku/configuration/authentication
-    type: "auth0",
-    domain: "auth.zuplo.site",
-    clientId: "f8I87rdsCRo4nU2FHf0fHVwA9P7xi7Ml",
-    audience: "https://api.example.com/",
+    type: "supabase",
+    providers: ["github"], // one or more providers
+    supabaseUrl: "https://wzzlgjaawmpoyicwnszo.supabase.co",
+    supabaseKey: "sb_publishable_s98MsP4SXT5pBl85UTcg1g_cUkthlkq",
   },
   apiKeys: {
     enabled: true,
