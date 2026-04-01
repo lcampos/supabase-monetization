@@ -76,7 +76,7 @@ const config: ZudokuConfig = {
   authentication: {
     type: "supabase",
     providers: ["github"], // one or more providers
-    supabaseUrl: "https://wzzlgjaawmpoyicwnszo.supabase.co/auth/v1",
+    supabaseUrl: "https://wzzlgjaawmpoyicwnszo.supabase.co",
     supabaseKey: "sb_publishable_s98MsP4SXT5pBl85UTcg1g_cUkthlkq",
   },
   apiKeys: {
