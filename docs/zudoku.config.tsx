@@ -75,7 +75,7 @@ const config: ZudokuConfig = {
   ],
   authentication: {
     type: "supabase",
-    onlyThirdPartyProviders: true,
+    onlyThirdPartyProviders: false,
     providers: ["github"], // one or more providers
     supabaseUrl: "https://wzzlgjaawmpoyicwnszo.supabase.co",
     supabaseKey: "sb_publishable_s98MsP4SXT5pBl85UTcg1g_cUkthlkq",
